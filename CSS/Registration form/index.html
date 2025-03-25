@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata about the page -->
+    <meta charset="UTF-8"> <!-- Specifies character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the page responsive on all devices -->
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css"> <!-- Links external CSS file for styling -->
+</head>
+<body>
+    <!-- Container for the form page -->
+    <section class="container">
+        <!-- Page Header -->
+        <header>Registration Form</header>
+
+        <!-- Registration Form -->
+        <form action="#" class="form">
+            <!-- Full Name Input -->
+            <div class="input-box">
+                <label for="name">Full Name</label> <!-- Label for name input -->
+                <input type="text" id="name" placeholder="Enter full name" required> <!-- Text input for full name -->
+            </div>
+
+            <!-- Email Address Input -->
+            <div class="input-box">
+                <label for="email">Email Address</label> <!-- Label for email input -->
+                <input type="email" id="email" placeholder="Enter email address" required> <!-- Email input field -->
+            </div>
+
+            <!-- Phone Number Input -->
+            <div class="input-box">
+                <label for="phone">Phone Number</label> <!-- Label for phone number input -->
+                <input type="number" id="phone" placeholder="Enter phone number" required> <!-- Number input for phone number -->
+            </div>
+
+            <!-- Date of Birth Input -->
+            <div class="input-box">
+                <label for="dob">Date of Birth</label> <!-- Label for date of birth input -->
+                <input type="date" id="dob" required> <!-- Date input field -->
+            </div>
+
+            <!-- Gender Selection -->
+            <div class="gender-box">
+                <h3>Gender</h3> <!-- Gender section title -->
+                <div class="gender-option">
+                    <!-- Radio buttons for gender selection -->
+                    <label>
+                        <input type="radio" name="gender" value="Male" checked> Male <!-- Option for Male -->
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="Female"> Female <!-- Option for Female -->
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="Other"> Other <!-- Option for Other -->
+                    </label>
+                </div>
+            </div>
+
+            <!-- Address Input -->
+            <div class="input-box">
+                <label for="address">Address</label> <!-- Label for address input -->
+                <textarea id="address" placeholder="Enter your address" rows="3" required></textarea> <!-- Textarea input for address -->
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button> <!-- Button to submit the form -->
+        </form>
+    </section>
+</body>
+</html>

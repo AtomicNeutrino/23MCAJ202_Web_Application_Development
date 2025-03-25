@@ -1,0 +1,90 @@
+/* style.css */
+
+/* General Styling for the entire page */
+body {
+    font-family: Arial, sans-serif; /* Sets the font family */
+    background: linear-gradient(135deg, #ece9e6, #ffffff); /* Applies a linear gradient background */
+    display: flex; /* Uses flexbox for layout */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    background-image: url('./images/formbg.jpg'); /* Sets a background image */
+    min-height: 100vh; /* Ensures the body covers the entire viewport height */
+    margin: 0; /* Removes default margin */
+}
+
+/* Styling for the comment section container */
+.comment-section {
+    background: #ffffff; /* Sets background color to white */
+    padding: 20px 30px; /* Adds padding inside the container */
+    border-radius: 12px; /* Rounds the corners */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+    width: 100%; /* Makes the container full width of its parent */
+    max-width: 400px; /* Sets a maximum width for responsiveness */
+    text-align: center; /* Centers text inside the container */
+}
+
+/* Styling for the header text */
+header {
+    font-size: 24px; /* Sets the font size */
+    font-weight: bold; /* Sets the font weight to bold */
+    color: #444444; /* Sets the text color */
+    margin-bottom: 20px; /* Adds bottom margin for spacing */
+}
+
+/* Styling for the comment form */
+.comment-form {
+    display: flex; /* Uses flexbox for layout */
+    flex-direction: column; /* Arranges elements in a column */
+    align-items: center; /* Centers content horizontally */
+}
+
+/* Styling for input boxes (name, email, comment) */
+.input-box {
+    margin-bottom: 15px; /* Adds bottom margin for spacing */
+    width: 100%; /* Makes the input box full width of its parent */
+    text-align: left; /* Aligns text to the left */
+}
+
+/* Styling for labels */
+label {
+    font-size: 14px; /* Sets the font size */
+    color: #555555; /* Sets the text color */
+    margin-bottom: 5px; /* Adds bottom margin for spacing */
+    display: block; /* Makes the label a block element */
+}
+
+/* Styling for input fields, textareas, and buttons */
+input, textarea, button {
+    width: 100%; /* Makes the elements full width */
+    max-width: 400px; /* Sets a maximum width */
+    padding: 10px; /* Adds padding inside the elements */
+    font-size: 14px; /* Sets the font size */
+    border: 1px solid #cccccc; /* Sets the border */
+    border-radius: 8px; /* Rounds the corners */
+    outline: none; /* Removes default outline */
+    box-sizing: border-box; /* Includes padding in the element's width */
+}
+
+/* Styling when input fields or textareas are focused */
+input:focus, textarea:focus {
+    border-color: #007BFF; /* Changes border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3); /* Adds a shadow on focus */
+}
+
+/* Styling for the submit button */
+button {
+    background-color: #007BFF; /* Sets the background color */
+    color: #ffffff; /* Sets the text color */
+    border: none; /* Removes the border */
+    padding: 12px; /* Adds padding inside the button */
+    font-size: 16px; /* Sets the font size */
+    border-radius: 8px; /* Rounds the corners */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    transition: background-color 0.3s ease; /* Adds a smooth transition for background color */
+    margin-top: 10px; /* Adds top margin for spacing */
+}
+
+/* Styling for the submit button on hover */
+button:hover {
+    background-color: #0056b3; /* Changes background color on hover */
+}

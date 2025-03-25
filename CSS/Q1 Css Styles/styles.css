@@ -1,0 +1,7 @@
+/* External CSS */
+.external-style {
+    background-color: #e5ffe5; /* Light green background */
+    color: #225522; /* Dark green text */
+    border: 1px solid #cceccc; /* Light green border */
+    text-align: center;
+}

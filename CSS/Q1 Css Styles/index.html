@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Styling Example</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f8ff; /* Light blue background */
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .internal-style {
+            background-color: #ffe9e9; /* Light pink background */
+            color: #880808; /* Maroon text color */
+            padding: 15px;
+            margin: 10px auto;
+            width: 60%;
+            border-radius: 5px;
+        }
+        .external-style {
+            margin: 10px auto;
+            padding: 15px;
+            width: 60%;
+            border-radius: 5px;
+        }
+    </style>
+
+    <!-- Linking external CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Inline CSS -->
+    <h1 style="color: #3e64ff; background-color: #fff; padding: 10px; border-radius: 10px;">
+      This is an example of Inline  CSS
+    </h1>
+
+    <!-- Internal CSS applied -->
+    <div class="internal-style">
+        <h2>Internal CSS</h2>
+        <p>This section is styled using internal CSS defined in this page</p>
+    </div>
+
+    <!-- External CSS applied -->
+    <div class="external-style">
+        <h2>External CSS</h2>
+        <p>This section is styled using an external CSS file linked with this page</p>
+    </div>
+
+</body>
+</html>

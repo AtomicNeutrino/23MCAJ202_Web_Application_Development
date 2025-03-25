@@ -1,0 +1,107 @@
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Professional font family */
+    background: linear-gradient(to bottom, #f0f0f0, #ffffff); /* Dark gradient for night sky effect */
+    background-image: url('formbg.jpg'); /* Replace with your star background image path */
+    background-size: cover; /* Cover the entire body with the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set height to full viewport height */
+    margin: 0; /* Remove default margin */
+    color: #e0e0e0; /* Light text color for contrast against dark background */
+}
+
+.container {
+    background: linear-gradient(135deg, rgba(27, 91, 239, 0.1), rgba(1, 140, 239, 0.2)); /* Gradient background for the form container */
+    padding: 30px; /* Increased padding for better spacing */
+    border-radius: 12px; /* Rounded corners for a softer look */
+    box-shadow: 0 8px 20px rgba(254, 254, 254, 0.4); /* Deeper shadow for depth */
+    width: 100%; /* Make the container responsive */
+    max-width: 450px; /* Maximum width of the container */
+    backdrop-filter: blur(10px); /* Add a blur effect to the background behind the container */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border for the container */
+}
+
+header {
+    font-size: 28px; /* Larger font size for the header */
+    font-weight: 600; /* Semi-bold font weight */
+    color: #d1c4e9; /* Light purple color for the header */
+    text-align: center; /* Center the header text */
+    margin-bottom: 30px; /* Increased bottom margin for spacing */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add a text shadow for depth */
+}
+
+.form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange form elements in a column */
+}
+
+.input-box {
+    margin-bottom: 20px; /* Increased bottom margin for input boxes */
+}
+
+label {
+    font-size: 15px; /* Slightly larger font size for labels */
+    margin-bottom: 8px; /* Bottom margin for labels */
+    display: block; /* Display labels as block elements */
+    color: #bdbdbd; /* Light gray color for labels */
+}
+
+input, textarea, select {
+    width: 100%; /* Make input fields fill the container width */
+    padding: 12px; /* Increased padding for input fields */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border for input fields */
+    border-radius: 8px; /* Rounded corners for input fields */
+    font-size: 15px; /* Font size for input fields */
+    color: #e0e0e0; /* Light text color for input fields */
+    background: rgba(255, 255, 255, 0.05); /* Semi-transparent background for input fields */
+    outline: none; /* Remove default outline */
+    box-sizing: border-box; /* Include padding and border in element width */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+input:focus, textarea:focus {
+    border-color: #9575cd; /* Purple border color when input is focused */
+    box-shadow: 0 0 8px rgba(156, 39, 176, 0.3); /* Shadow when input is focused */
+}
+
+.gender-box {
+    margin-bottom: 20px; /* Bottom margin for gender box */
+}
+
+.gender-box h3 {
+    font-size: 15px; /* Font size for gender box header */
+    margin-bottom: 8px; /* Bottom margin for gender box header */
+    color: #bdbdbd; /* Light gray color for gender box header */
+}
+
+.gender-option {
+    display: flex; /* Use flexbox for horizontal layout of gender options */
+    align-items: center; /* Align items vertically in the center */
+}
+
+.gender-option label {
+    margin-right: 15px; /* Right margin for gender option labels */
+    font-size: 15px; /* Font size for gender option labels */
+    color: #bdbdbd; /* Light gray color for gender option labels */
+}
+
+button {
+    background-color: #9575cd; /* Purple background color for the button */
+    color: #ffffff; /* White text color for the button */
+    border: none; /* Remove button border */
+    padding: 14px; /* Increased padding for the button */
+    font-size: 16px; /* Font size for the button */
+    border-radius: 8px; /* Rounded corners for the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions for background color and transform */
+    width: 100%; /* Make the button fill the container width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for the button */
+}
+
+button:hover {
+    background-color: #7e57c2; /* Darker purple background color on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}

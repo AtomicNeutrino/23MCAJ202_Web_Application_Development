@@ -1,0 +1,127 @@
+/* for the Blog page styling */
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif; /* Sets the default font family to Arial or a sans-serif fallback */
+    margin: 0; /* Removes default margin from the body */
+    padding: 0; /* Removes default padding from the body */
+    background-color: #f4f4f4; /* Sets the background color of the body to a light gray */
+    color: #333; /* Sets the default text color of the body to a dark gray */
+}
+
+/* Header Section Styling */
+.main-header {
+    background-color: #000; /* Sets the background color of the header to black */
+    color: #fff; /* Sets the text color of the header to white */
+    padding: 20px; /* Adds 20 pixels of padding inside the header */
+    text-align: center; /* Centers the text horizontally within the header */
+    /* border-radius: 12px; /* Commented out: Would add rounded corners to the header */
+}
+
+/* Navigation Links Styling */
+.nav-links {
+    list-style: none; /* Removes default list styling (bullets) from navigation links */
+    padding: 0; /* Removes default padding from the navigation links list */
+    display: flex; /* Uses flexbox to arrange navigation links horizontally */
+    justify-content: center; /* Centers the navigation links horizontally */
+    gap: 20px; /* Adds 20 pixels of space between navigation links */
+}
+
+.nav-links a {
+    color: #fff; /* Sets the text color of navigation links to white */
+    text-decoration: none; /* Removes underlines from navigation links */
+    font-weight: bold; /* Makes the navigation link text bold */
+}
+
+/* Hero Section Styling */
+.hero {
+    background: url('./images/back.jpg') no-repeat center center/cover; /* Sets a background image for the hero section, covering the entire area */
+    color: #fff; /* Sets the text color of the hero section to white */
+    text-align: center; /* Centers the text horizontally within the hero section */
+    padding: 50px 20px; /* Adds 50 pixels of top/bottom padding and 20 pixels of left/right padding */
+    /* border-radius: 5px; /* Commented out: Would add rounded corners to the hero section */
+}
+
+/* Blog Posts Container Styling */
+.blog-posts {
+    display: grid; /* Uses grid layout to arrange blog posts */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Creates responsive columns with a minimum width of 300px */
+    gap: 20px; /* Adds 20 pixels of space between blog posts */
+    padding: 20px; /* Adds 20 pixels of padding around the blog posts container */
+}
+
+/* Individual Blog Post Styling */
+.post {
+    background: #fff; /* Sets the background color of each blog post to white */
+    border-radius: 12px; /* Adds rounded corners to each blog post */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to each blog post */
+    overflow: hidden; /* Hides any content that overflows the post container */
+    text-align: center; /* Centers the text horizontally within each blog post */
+}
+
+/* Blog Post Image Styling */
+.post img {
+    width: 100%; /* Makes the image fill the width of the post container */
+    height: auto; /* Maintains the image's aspect ratio */
+    border-radius: 12px 12px 0 0; /* Adds rounded corners to the top of the image */
+}
+
+/* Blog Post Title Styling */
+.post h3 {
+    margin: 10px 0; /* Adds 10 pixels of margin above and below the title */
+}
+
+/* Blog Post Paragraph Styling */
+.post p {
+    padding: 0 10px; /* Adds 10 pixels of left and right padding to the paragraph */
+}
+
+/* Read More Link Styling */
+.read-more {
+    display: inline-block; /* Makes the read more link behave like an inline-block element */
+    margin: 10px 0; /* Adds 10 pixels of margin above and below the link */
+    padding: 10px 20px; /* Adds 10 pixels of top/bottom padding and 20 pixels of left/right padding */
+    background-color: #000; /* Sets the background color of the link to black */
+    color: #fff; /* Sets the text color of the link to white */
+    text-decoration: none; /* Removes underlines from the link */
+    border-radius: 8px; /* Adds rounded corners to the link */
+    transition: background-color 0.3s; /* Adds a smooth transition for background color changes */
+}
+
+/* Read More Link Hover Styling */
+.read-more:hover {
+    background-color: #444; /* Changes the background color of the link on hover */
+}
+
+/* Comment Button Container Styling */
+.comment-button-container {
+    display: flex; /* Uses flexbox to arrange the comment button */
+    justify-content: center; /* Centers the comment button horizontally */
+    margin: 20px 0; /* Adds 20 pixels of margin above and below the button container */
+}
+
+/* Comment Button Styling */
+.comment-button {
+    background-color: #000; /* Sets the background color of the comment button to black */
+    color: #fff; /* Sets the text color of the comment button to white */
+    padding: 12px 20px; /* Adds 12 pixels of top/bottom padding and 20 pixels of left/right padding */
+    font-size: 16px; /* Sets the font size of the comment button */
+    border: none; /* Removes the border from the comment button */
+    border-radius: 12px; /* Fully rounds the corners of the comment button */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    transition: background-color 0.3s; /* Adds a smooth transition for background color changes */
+}
+
+/* Comment Button Hover Styling */
+.comment-button:hover {
+    background-color: #444; /* Changes the background color of the comment button on hover */
+}
+
+/* Footer Styling */
+.main-footer {
+    background-color: #000; /* Sets the background color of the footer to black */
+    color: #fff; /* Sets the text color of the footer to white */
+    text-align: center; /* Centers the text horizontally within the footer */
+    padding: 10px 0; /* Adds 10 pixels of top/bottom padding to the footer */
+    border-radius: 12px; /* Adds rounded corners to the footer */
+}
