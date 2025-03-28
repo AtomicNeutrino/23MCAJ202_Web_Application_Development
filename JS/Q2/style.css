@@ -1,0 +1,20 @@
+/* style.css */
+body {
+    transition: background-color 0.5s ease; /* Smooth transition for background color changes */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Set minimum height to full viewport height */
+    margin: 0; /* Remove default margin */
+    font-family: sans-serif; /* Set default font family */
+}
+
+button {
+    padding: 15px 30px; /* Padding for the button */
+    font-size: 18px; /* Font size for the button text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Rounded corners for the button */
+    background-color: #4CAF50; /* Default button background color */
+    color: white; /* Default button text color */
+}

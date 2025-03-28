@@ -1,0 +1,105 @@
+/* style.css */
+body {
+    font-family: sans-serif; /* Default sans-serif font */
+    background: linear-gradient(to right, #89cff0, #b0e0e6); /* Gradient background */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Ensure at least full viewport height */
+    margin: 0; /* Reset default margin */
+    color: #333; /* Default text color */
+}
+
+.container {
+    background: linear-gradient(135deg, rgba(27, 91, 239, 0.1), rgba(1, 140, 239, 0.2)); /* Gradient background for the form container */
+    padding: 30px; /* Increased padding for better spacing */
+    border-radius: 12px; /* Rounded corners for a softer look */
+    box-shadow: 0 8px 20px rgba(254, 254, 254, 0.4); /* Deeper shadow for depth */
+    width: 100%; /* Make the container responsive */
+    max-width: 450px; /* Maximum width of the container */
+    backdrop-filter: blur(10px); /* Add a blur effect to the background behind the container */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border for the container */
+}
+
+
+header {
+    font-size: 28px; /* Larger font size for the header */
+    font-weight: 500; /* Semi-bold font weight */
+    text-align: center; /* Center-align the header text */
+    margin-bottom: 30px; /* Margin below the header */
+    color: #1565c0; /* Header text color */
+}
+
+.form {
+    display: flex; /* Use flexbox for form layout */
+    flex-direction: column; /* Arrange form elements in a column */
+}
+
+.input-box {
+    margin-bottom: 15px; /* Margin below each input box */
+}
+
+label {
+    display: block; /* Make labels take full width */
+    margin-bottom: 8px; /* Margin below each label */
+    font-weight: 500; /* Semi-bold font weight for labels */
+    color: #424242; /* Label text color */
+}
+
+input,
+textarea {
+    width: 100%; /* Full width for input fields and textarea */
+    padding: 12px; /* Padding inside input fields and textarea */
+    border: 1px solid #ddd; /* Border for input fields and textarea */
+    border-radius: 8px; /* Rounded corners for input fields and textarea */
+    box-sizing: border-box; /* Include padding in width calculation */
+    font-size: 16px; /* Font size for input fields and textarea */
+    transition: border-color 0.3s; /* Smooth border color transition */
+}
+
+input:focus,
+textarea:focus {
+    border-color: #1976d2; /* Border color when input is focused */
+    outline: none; /* Remove default focus outline */
+}
+
+.gender-box {
+    margin-bottom: 25px; /* Margin below the gender box */
+}
+
+.gender-box h3 {
+    font-size: 18px; /* Font size for the gender box heading */
+    margin-bottom: 10px; /* Margin below the gender box heading */
+    color: #424242; /* Gender box heading color */
+}
+
+.gender-option {
+    display: flex; /* Arrange gender options horizontally */
+    align-items: center; /* Align items vertically */
+}
+
+.gender-option label {
+    margin-right: 20px; /* Spacing between gender option labels */
+    font-size: 16px; /* Font size for gender option labels */
+}
+
+.error-message {
+    color: #d32f2f; /* Error message text color */
+    font-size: 14px; /* Error message font size */
+    margin-top: 5px; /* Margin above the error message */
+}
+
+.submit-button {
+    background: linear-gradient(to right, #1976d2, #1565c0); /* Gradient background for the submit button */
+    color: white; /* Submit button text color */
+    padding: 14px 20px; /* Padding inside the submit button */
+    border: none; /* Remove button border */
+    border-radius: 8px; /* Rounded corners for the submit button */
+    font-size: 18px; /* Font size for the submit button */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.submit-button:hover {
+    background: linear-gradient(to right, #1565c0, #1976d2); /* Reversed gradient on hover */
+}
